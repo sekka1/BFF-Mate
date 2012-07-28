@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4242D715C094FA0091267F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4242D615C094FA0091267F /* UIKit.framework */; };
+		0F4242D915C094FA0091267F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4242D815C094FA0091267F /* Foundation.framework */; };
+		0F4242DB15C094FA0091267F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4242DA15C094FA0091267F /* CoreGraphics.framework */; };
+		0F4242E115C094FA0091267F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242DF15C094FA0091267F /* InfoPlist.strings */; };
+		0F4242E315C094FA0091267F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4242E215C094FA0091267F /* main.m */; };
+		0F4242E715C094FA0091267F /* CTZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4242E615C094FA0091267F /* CTZAppDelegate.m */; };
+		0F4242EA15C094FA0091267F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242E815C094FA0091267F /* MainStoryboard.storyboard */; };
+		0F4242ED15C094FA0091267F /* CTZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4242EC15C094FA0091267F /* CTZViewController.m */; };
+		0F42430315C095540091267F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242F915C095540091267F /* background.png */; };
+		0F42430415C095540091267F /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242FA15C095540091267F /* background@2x.png */; };
+		0F42430515C095540091267F /* bk_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242FB15C095540091267F /* bk_navbar.png */; };
+		0F42430615C095540091267F /* bk_navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242FC15C095540091267F /* bk_navbar@2x.png */; };
+		0F42430715C095540091267F /* btn_facebook_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242FD15C095540091267F /* btn_facebook_normal.png */; };
+		0F42430815C095540091267F /* btn_facebook_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242FE15C095540091267F /* btn_facebook_normal@2x.png */; };
+		0F42430915C095540091267F /* btn_facebook_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4242FF15C095540091267F /* btn_facebook_press.png */; };
+		0F42430A15C095540091267F /* btn_facebook_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F42430015C095540091267F /* btn_facebook_press@2x.png */; };
+		0F42430B15C095540091267F /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F42430115C095540091267F /* default.png */; };
+		0F42430C15C095540091267F /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F42430215C095540091267F /* default@2x.png */; };
+		0FC91F0A15C09AA50058F2DE /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC91F0415C09AA40058F2DE /* iPad.png */; };
+		0FC91F0B15C09AA50058F2DE /* iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC91F0515C09AA40058F2DE /* iPad@2x.png */; };
+		0FC91F0E15C09AA50058F2DE /* iTunes Store.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC91F0815C09AA50058F2DE /* iTunes Store.png */; };
+		0FC91F0F15C09AA50058F2DE /* Retina Mac.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC91F0915C09AA50058F2DE /* Retina Mac.png */; };
+		0FC91F1115C09AAB0058F2DE /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC91F1015C09AAB0058F2DE /* iPhone.png */; };
+		0FC91F1315C09AB00058F2DE /* iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC91F1215C09AB00058F2DE /* iPhone@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4242D215C094FA0091267F /* BFF Mate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BFF Mate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4242D615C094FA0091267F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F4242D815C094FA0091267F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F4242DA15C094FA0091267F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F4242DE15C094FA0091267F /* BFF Mate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFF Mate-Info.plist"; sourceTree = "<group>"; };
+		0F4242E015C094FA0091267F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F4242E215C094FA0091267F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F4242E415C094FA0091267F /* BFF Mate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFF Mate-Prefix.pch"; sourceTree = "<group>"; };
+		0F4242E515C094FA0091267F /* CTZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTZAppDelegate.h; sourceTree = "<group>"; };
+		0F4242E615C094FA0091267F /* CTZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTZAppDelegate.m; sourceTree = "<group>"; };
+		0F4242E915C094FA0091267F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0F4242EB15C094FA0091267F /* CTZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTZViewController.h; sourceTree = "<group>"; };
+		0F4242EC15C094FA0091267F /* CTZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTZViewController.m; sourceTree = "<group>"; };
+		0F4242F915C095540091267F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0F4242FA15C095540091267F /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		0F4242FB15C095540091267F /* bk_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk_navbar.png; sourceTree = "<group>"; };
+		0F4242FC15C095540091267F /* bk_navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_navbar@2x.png"; sourceTree = "<group>"; };
+		0F4242FD15C095540091267F /* btn_facebook_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebook_normal.png; sourceTree = "<group>"; };
+		0F4242FE15C095540091267F /* btn_facebook_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_facebook_normal@2x.png"; sourceTree = "<group>"; };
+		0F4242FF15C095540091267F /* btn_facebook_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebook_press.png; sourceTree = "<group>"; };
+		0F42430015C095540091267F /* btn_facebook_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_facebook_press@2x.png"; sourceTree = "<group>"; };
+		0F42430115C095540091267F /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		0F42430215C095540091267F /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		0FC91F0415C09AA40058F2DE /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
+		0FC91F0515C09AA40058F2DE /* iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad@2x.png"; sourceTree = "<group>"; };
+		0FC91F0815C09AA50058F2DE /* iTunes Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunes Store.png"; sourceTree = "<group>"; };
+		0FC91F0915C09AA50058F2DE /* Retina Mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Retina Mac.png"; sourceTree = "<group>"; };
+		0FC91F1015C09AAB0058F2DE /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		0FC91F1215C09AB00058F2DE /* iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F4242CF15C094FA0091267F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4242D715C094FA0091267F /* UIKit.framework in Frameworks */,
+				0F4242D915C094FA0091267F /* Foundation.framework in Frameworks */,
+				0F4242DB15C094FA0091267F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4242C715C094FA0091267F = {
+			isa = PBXGroup;
+			children = (
+				0FC91F1215C09AB00058F2DE /* iPhone@2x.png */,
+				0FC91F1015C09AAB0058F2DE /* iPhone.png */,
+				0F4242DC15C094FA0091267F /* BFF Mate */,
+				0F4242D515C094FA0091267F /* Frameworks */,
+				0F4242D315C094FA0091267F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F4242D315C094FA0091267F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F4242D215C094FA0091267F /* BFF Mate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F4242D515C094FA0091267F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F4242D615C094FA0091267F /* UIKit.framework */,
+				0F4242D815C094FA0091267F /* Foundation.framework */,
+				0F4242DA15C094FA0091267F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F4242DC15C094FA0091267F /* BFF Mate */ = {
+			isa = PBXGroup;
+			children = (
+				0F4242E515C094FA0091267F /* CTZAppDelegate.h */,
+				0F4242E615C094FA0091267F /* CTZAppDelegate.m */,
+				0F4242E815C094FA0091267F /* MainStoryboard.storyboard */,
+				0F4242EB15C094FA0091267F /* CTZViewController.h */,
+				0F4242EC15C094FA0091267F /* CTZViewController.m */,
+				0F4242F715C0951F0091267F /* Resources */,
+				0F4242DD15C094FA0091267F /* Supporting Files */,
+			);
+			path = "BFF Mate";
+			sourceTree = "<group>";
+		};
+		0F4242DD15C094FA0091267F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F4242DE15C094FA0091267F /* BFF Mate-Info.plist */,
+				0F4242DF15C094FA0091267F /* InfoPlist.strings */,
+				0F4242E215C094FA0091267F /* main.m */,
+				0F4242E415C094FA0091267F /* BFF Mate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F4242F715C0951F0091267F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FC91F0415C09AA40058F2DE /* iPad.png */,
+				0FC91F0515C09AA40058F2DE /* iPad@2x.png */,
+				0FC91F0815C09AA50058F2DE /* iTunes Store.png */,
+				0FC91F0915C09AA50058F2DE /* Retina Mac.png */,
+				0F4242F915C095540091267F /* background.png */,
+				0F4242FA15C095540091267F /* background@2x.png */,
+				0F4242FB15C095540091267F /* bk_navbar.png */,
+				0F4242FC15C095540091267F /* bk_navbar@2x.png */,
+				0F4242FD15C095540091267F /* btn_facebook_normal.png */,
+				0F4242FE15C095540091267F /* btn_facebook_normal@2x.png */,
+				0F4242FF15C095540091267F /* btn_facebook_press.png */,
+				0F42430015C095540091267F /* btn_facebook_press@2x.png */,
+				0F42430115C095540091267F /* default.png */,
+				0F42430215C095540091267F /* default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F4242D115C094FA0091267F /* BFF Mate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4242F015C094FA0091267F /* Build configuration list for PBXNativeTarget "BFF Mate" */;
+			buildPhases = (
+				0F4242CE15C094FA0091267F /* Sources */,
+				0F4242CF15C094FA0091267F /* Frameworks */,
+				0F4242D015C094FA0091267F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BFF Mate";
+			productName = "BFF Mate";
+			productReference = 0F4242D215C094FA0091267F /* BFF Mate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F4242C915C094FA0091267F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CTZ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Michael Critz";
+			};
+			buildConfigurationList = 0F4242CC15C094FA0091267F /* Build configuration list for PBXProject "BFF Mate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F4242C715C094FA0091267F;
+			productRefGroup = 0F4242D315C094FA0091267F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F4242D115C094FA0091267F /* BFF Mate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F4242D015C094FA0091267F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4242E115C094FA0091267F /* InfoPlist.strings in Resources */,
+				0F4242EA15C094FA0091267F /* MainStoryboard.storyboard in Resources */,
+				0F42430315C095540091267F /* background.png in Resources */,
+				0F42430415C095540091267F /* background@2x.png in Resources */,
+				0F42430515C095540091267F /* bk_navbar.png in Resources */,
+				0F42430615C095540091267F /* bk_navbar@2x.png in Resources */,
+				0F42430715C095540091267F /* btn_facebook_normal.png in Resources */,
+				0F42430815C095540091267F /* btn_facebook_normal@2x.png in Resources */,
+				0F42430915C095540091267F /* btn_facebook_press.png in Resources */,
+				0F42430A15C095540091267F /* btn_facebook_press@2x.png in Resources */,
+				0F42430B15C095540091267F /* default.png in Resources */,
+				0F42430C15C095540091267F /* default@2x.png in Resources */,
+				0FC91F0A15C09AA50058F2DE /* iPad.png in Resources */,
+				0FC91F0B15C09AA50058F2DE /* iPad@2x.png in Resources */,
+				0FC91F0E15C09AA50058F2DE /* iTunes Store.png in Resources */,
+				0FC91F0F15C09AA50058F2DE /* Retina Mac.png in Resources */,
+				0FC91F1115C09AAB0058F2DE /* iPhone.png in Resources */,
+				0FC91F1315C09AB00058F2DE /* iPhone@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4242CE15C094FA0091267F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4242E315C094FA0091267F /* main.m in Sources */,
+				0F4242E715C094FA0091267F /* CTZAppDelegate.m in Sources */,
+				0F4242ED15C094FA0091267F /* CTZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F4242DF15C094FA0091267F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4242E015C094FA0091267F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F4242E815C094FA0091267F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4242E915C094FA0091267F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F4242EE15C094FA0091267F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Critz (YH7WVD5MA3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "9ED39793-4FAF-4B21-A851-0C70E34F7C56";
+				SDKROOT = iphoneos5.1;
+			};
+			name = Debug;
+		};
+		0F4242EF15C094FA0091267F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Critz (YH7WVD5MA3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9ED39793-4FAF-4B21-A851-0C70E34F7C56";
+				SDKROOT = iphoneos5.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F4242F115C094FA0091267F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFF Mate/BFF Mate-Prefix.pch";
+				INFOPLIST_FILE = "BFF Mate/BFF Mate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F4242F215C094FA0091267F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFF Mate/BFF Mate-Prefix.pch";
+				INFOPLIST_FILE = "BFF Mate/BFF Mate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4242CC15C094FA0091267F /* Build configuration list for PBXProject "BFF Mate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4242EE15C094FA0091267F /* Debug */,
+				0F4242EF15C094FA0091267F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F4242F015C094FA0091267F /* Build configuration list for PBXNativeTarget "BFF Mate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4242F115C094FA0091267F /* Debug */,
+				0F4242F215C094FA0091267F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F4242C915C094FA0091267F /* Project object */;
+}
